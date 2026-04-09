@@ -1,3 +1,4 @@
+
 # Crowd Estimation for Disaster Recovery
 
 Real-time multi-camera crowd monitoring with global ID tracking, door line counting, and panic detection.
@@ -82,3 +83,7 @@ python scripts/tools/set_door_line.py --video <path_to_video> --cam cam0
 - Existing commands still work via wrapper files in `apps/`, `services/`, `scripts/`, and `dashboard/`.
 - Keep `config/cameras.yaml` calibrated before production runs.
 - `dashboard/state.json` and `dashboard/occupants.json` are runtime state files and are updated automatically.
+=======
+# Sahan-Rudrigo-Crowd-Estimation-for-Disaster-Recovery-
+A Real-Time System for Crowd Monitoring Using Machine Learning
+>>>>>>> 60f7a706eb0c9d072ea0b06b03ce844721d62bb2
