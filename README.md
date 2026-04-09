@@ -60,8 +60,8 @@ The system guarantees unique global counts by bridging occlusions and cross-came
     <th align="center">After Occlusion (ID Restored)</th>
   </tr>
   <tr>
-    <td align="center"><img src="Images/before_occlusion.png" width="400" alt="Before Occlusion"></td>
-    <td align="center"><img src="Images/after_occlusion.png" width="400" alt="After Occlusion"></td>
+    <td align="center"><img src="images/before_occlusion.png" width="400" alt="Before Occlusion"></td>
+    <td align="center"><img src="images/after_occlusion.png" width="400" alt="After Occlusion"></td>
   </tr>
   <tr>
     <td align="center"><em>Person (ID: 2) tracked normally before passing behind a solid obstacle.</em></td>
@@ -75,6 +75,10 @@ The system guarantees unique global counts by bridging occlusions and cross-came
 * **Velocity Calculation:** Calculates real-time speed using distance over time ($D / \Delta T$) derived from the digital twin map.
 * **Ambient Baseline Learning:** Does not use hard-coded speed limits. Instead, it learns the normal ambient speed distribution (Gaussian curve) of a specific room.
 * **Mass Panic Rule:** To prevent false alarms (e.g., one person running for an elevator), an emergency is **only triggered if >25% of the room's occupants suddenly cross the outlier threshold.**
+
+<p align="center">
+  <img src="images/panic_detection_pipeline.png" width="800" alt="Panic Detection Pipeline">
+</p>
 
 ### 4. AI Profiling & Occupant Registry 📝
 * Uses the **Gemini Vision API / Qwen-VL** to generate textual descriptions of occupants (e.g., *"Red jacket, dark jeans, carrying a black backpack"*).
