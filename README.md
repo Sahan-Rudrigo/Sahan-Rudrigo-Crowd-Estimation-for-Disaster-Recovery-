@@ -64,8 +64,8 @@ The system guarantees unique global counts by bridging occlusions and cross-came
     <td align="center"><img src="Images/after_occlusion.png" width="400" alt="After Occlusion"></td>
   </tr>
   <tr>
-    <td align="center"><em>Person (ID: 42) tracked normally before passing behind a solid obstacle.</em></td>
-    <td align="center"><em>Person (ID: 42) emerges. The Fusion Node successfully matches the embedding and restores the ID.</em></td>
+    <td align="center"><em>Person (ID: 1) tracked normally before passing behind a solid obstacle.</em></td>
+    <td align="center"><em>Person (ID: 2) emerges. The Fusion Node successfully matches the embedding and restores the ID.</em></td>
   </tr>
 </table>
 
