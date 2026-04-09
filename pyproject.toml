@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "disaster-recovery-crowd-monitor"
+version = "0.1.0"
+description = "Real-time multi-camera crowd monitoring and panic detection"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "Proprietary" }
+authors = [
+  { name = "Project Team" }
+]
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["disaster_recovery*"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]

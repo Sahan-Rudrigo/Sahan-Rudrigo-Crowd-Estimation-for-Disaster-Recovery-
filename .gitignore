@@ -1,0 +1,56 @@
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE and editor files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment and local secrets
+.env
+.env.*
+
+# Generated configuration and runtime state
+config/panic_baseline.json
+dashboard/state.json
+dashboard/occupants.json
+dashboard/portraits/
+event_queue/
+logs/
+
+# Large model weights and local artifacts
+local_blip_model/
+models/
+yolov8n.pt
+*.pt
+*.pth
+*.bin
+*.onnx
+
+# Captured videos and calibration media
+cameras/test_videos/
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Build / packaging outputs
+build/
+dist/
+*.egg-info/
