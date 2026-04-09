@@ -69,7 +69,7 @@ The system guarantees unique global counts by bridging occlusions and cross-came
   </tr>
 </table>
 
-*(Note: Replace `before_occlusion.jpg` and `after_occlusion.jpg` with your actual screenshot files!)*
+💡**Notice the IDs:** As clearly seen in the images above, the system successfully maintains the exact same Global IDs (ID 1 and ID 2) for each person, even after they have been temporarily hidden by the pillar.
 
 ### 3. Behavioral Panic Detection 🏃💨
 * **Velocity Calculation:** Calculates real-time speed using distance over time ($D / \Delta T$) derived from the digital twin map.
